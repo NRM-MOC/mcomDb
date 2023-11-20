@@ -21,7 +21,7 @@
 #'
 #' @examples make_wide(MCoM, "Metals") |>  glimpse() |> View()
 #' @examples make_wide(MCoM, "BFRs") |> write_csv2(file = "BFRs.csv")
-#' @examples make_wide(MCoM, c("Dioxins and furans" , "Pesticides"))
+#' @examples make_wide(MCoM, "Dioxins and furans" )
 #'
 make_wide <- function(MCoM, group , bio = c("year", "date", "species", "species_EN",  "class",
                                                       "number_individuals","sex", "total_length","age", "weight", "shell_thickness" ,
