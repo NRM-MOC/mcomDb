@@ -10,15 +10,8 @@
 #'  \item{species}{Full scientific name}
 #'  \item{station_name}{Stations full name in English alphabet }
 #'  \item{fat_percentage}{Fat percentage in the analysed organ}
-#'  \item{Hg}{}
-#'  \item{Ni}{}
-#'  \item{Cr}{}
-#'  \item{Pb}{}
-#'  \item{Cd}{}
-#'  \item{Zn}{}
-#'  \item{Cu}{}
-#'  \item{As}{}
-#'  \item{Ag}{}
+#'  \item{Hg, Ni,Cr, Pb, Cd, Zn, Cu, As, Ag}{ contaminants as described for the database MCoM}
+#'
 #'
 #'
 #' @examples data(Intercalibration_metals)

@@ -11,13 +11,8 @@
 #'  \item{station_name}{Stations full name in English alphabet }
 #'  \item{organ}{Sampled organ for contaminant analysis: Liver or Muscle for fish, Soft tissue for mussels, and Egg_content for birds }
 #'  \item{fat_percentage}{Fat percentage in the analysed organ}
-#'  \item{BDE28}{}
-#'  \item{BDE47}{}
-#'  \item{BDE99}{}
-#'  \item{BDE100}{}
-#'  \item{BDE153}{}
-#'  \item{BDE154}{}
-#'  \item{HBCD}{}
+#'  \item{BDE28, BDE47, BDE99, BDE100, BDE153, BDE154, HBCD}{contmainants as described for the database MCoM}
+#
 #'
 #'
 #' @examples data(intercalibration_BFR)
