@@ -3,4 +3,6 @@ Intercalibration files are found for metals (intercalibration_metals), Per- and 
 
 The package includes a function for shifting the MCoM dataset from a long to a wide format. 
 
-To install the package: devtools::install_github("https://github.com/NRM-MOC/mcomDb", force = TRUE)
+To install the package: devtools::install_github("https://github.com/NRM-MOC/mcomDb", force = TRUE).
+
+The data descriptor was peer-reviewed in 2024 based on the data available on the platform at the time.
