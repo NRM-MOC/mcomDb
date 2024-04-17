@@ -8,7 +8,7 @@ make_wide(
   MCoM,
   group,
   bio = c("year", "date", "species", "species_EN", "class", "number_individuals", "sex",
-    "total_length", "age", "weight", "shell_thickness", "d13C", "d15N",
+    "total_length", "age", "weight", "egg_shell_thickness", "d13C", "d15N",
     "C_dw_percentage", "N_dw_percentage", "station_name", "latitude", "longitude",
     "HELCOM_basin", "ICES_basin", "season")
 )
@@ -18,7 +18,7 @@ make_wide(
 
 \item{group}{the contaminants substance groups. Choose from:  "Metals","PFAS","PCBs", "Dioxins and furans" , "Pesticides","BFRs", "Solvents-phenols","PAH". "Organotin compounds" .}
 
-\item{bio}{choose from:"year", "date", "species", "species_EN",  "class","number_individuals","sex", "total_length","age", "weight","shell_thickness" ,  "d13C", "d15N","C_dw_percentage", "N_dw_percentage", "station_name", "latitude", "longitude", "HELCOM_basin", "ICES_basin", "season"}
+\item{bio}{choose from:"year", "date", "species", "species_EN",  "class","number_individuals","sex", "total_length","age", "weight","egg_shell_thickness" ,  "d13C", "d15N","C_dw_percentage", "N_dw_percentage", "station_name", "latitude", "longitude", "HELCOM_basin", "ICES_basin", "season"}
 }
 \value{
 database in wide format with contaminants in separate columns.
@@ -29,6 +29,6 @@ Wide format for MCoM database.
 \examples{
 make_wide(MCoM, "Metals") |>  glimpse() |> View()
 make_wide(MCoM, "BFRs") |> write_csv2(file = "BFRs.csv")
-make_wide(MCoM, c("Dioxins and furans" , "Pesticides"))
+make_wide(MCoM, "Dioxins and furans" )
 
 }

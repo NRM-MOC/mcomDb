@@ -34,7 +34,7 @@
 #'  \item{organ}{Sampled organ for contaminant analysis: Liver or Muscle for fish, Soft tissue for mussels, and Egg_content for birds }
 #'  \item{fat_percentage}{Fat percentage in the analysed organ}
 #'  \item{dry_weight_percentage}{Dry weight of the analysed organ done by the laboratory with the contaminants analyses.}
-#'  \item{shell_thickness}{Birds shell thickness, else is NA}
+#'  \item{egg_shell_thickness}{Birds shell thickness, else is NA}
 #'  \item{d13C}{Isotope ratio 13C/12C relative int standards, δ13C}
 #'  \item{d15N}{Isotope ratio 15N/14N relative to air, δ15N}
 #'  \item{C_dw_percentage}{Total carbon in relation to dry weight }

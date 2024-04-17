@@ -3,7 +3,7 @@
 #'
 #' @param MCoM data table of contaminants in marine biota presented in a long format.
 #' @param group the contaminants substance groups. Choose from:  "Metals","PFAS","PCBs", "Dioxins and furans" , "Pesticides","BFRs", "Solvents-phenols","PAH". "Organotin compounds" .
-#' @param bio choose from:"year", "date", "species", "species_EN",  "class","number_individuals","sex", "total_length","age", "weight","shell_thickness" ,  "d13C", "d15N","C_dw_percentage", "N_dw_percentage", "station_name", "latitude", "longitude", "HELCOM_basin", "ICES_basin", "season"
+#' @param bio choose from:"year", "date", "species", "species_EN",  "class","number_individuals","sex", "total_length","age", "weight","egg_shell_thickness" ,  "d13C", "d15N","C_dw_percentage", "N_dw_percentage", "station_name", "latitude", "longitude", "HELCOM_basin", "ICES_basin", "season"
 #'
 #'
 #' @return database in wide format with contaminants in separate columns.
@@ -24,7 +24,7 @@
 #' @examples make_wide(MCoM, "Dioxins and furans" )
 #'
 make_wide <- function(MCoM, group , bio = c("year", "date", "species", "species_EN",  "class",
-                                                      "number_individuals","sex", "total_length","age", "weight", "shell_thickness" ,
+                                                      "number_individuals","sex", "total_length","age", "weight", "egg_shell_thickness" ,
                                                       "d13C", "d15N","C_dw_percentage", "N_dw_percentage",
                                                       "station_name", "latitude", "longitude", "HELCOM_basin", "ICES_basin", "season")){
   cont <- MCoM |>
