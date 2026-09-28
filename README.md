@@ -1,3 +1,8 @@
+**This package is no longer updated.** mcomDb has been replaced by [fmcom](https://github.com/NRM-MOC/fmcom), which combines data from the Swedish marine and freshwater contaminant monitoring programmes.
+Status at the final update: data for 1968–2023. The first version, published with the data paper (Ammar et al. 2024), covered data until 2021.
+
+---
+
 This package contains a dataset of the Swedish National Monitoring Programme for Contaminants in Marine Biota (MCoM) funded by the Swedish Environmental Protection Agency and run by the Swedish Museum of Natural History. 
 A description of the MCoM and dataset is found in Ammar, Y., Faxneld, S., Sköld, M., & Soerensen, A. L. (2024). Long-term dataset for contaminants in fish, mussels, and bird eggs from the Baltic Sea. Scientific Data, 11(1). https://doi.org/10.1038/s41597-024-03216-0. Note that the data descriptor was peer-reviewed in 2024 based on the data available on the platform at the time.
 
