@@ -1,4 +1,4 @@
-**This package is no longer updated.** mcomDb has been replaced by [fmcom](https://github.com/NRM-MOC/fmcom), which combines data from the Swedish marine and freshwater contaminant monitoring programmes.
+**This package has been archived and is no longer updated.** mcomDb has been replaced by [fmcom](https://github.com/NRM-MOC/fmcom), which combines data from the Swedish marine and freshwater contaminant monitoring programmes.
 Status at the final update: data for 1968–2023. The first version, published with the data paper (Ammar et al. 2024), covered data until 2021.
 
 ---
